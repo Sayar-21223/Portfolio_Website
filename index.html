@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/125372cbb9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+<div class="container">
+    <nav>
+        <img src="Images/sayar-logo-removebg-preview.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="about-col-0">
+        <img src="Images/BG.jpg">
+     </div>
+    <div class="header-text">
+        <p>Pursuing Btech</p>
+        <h1>Hi, I am <span>Sayar</span><br>from Kolkata</h1>
+    </div>
+    <div class="move-text">
+        <div class="static-text">I'm a</div>
+        <ul class="dynamic-text">
+            <li><span>&nbsp Developer</span></li>
+            <li><span>&nbsp Codder</span></li>
+            <li><span>&nbsp Designer</span></li>
+            <li><span>&nbsp Photographer</span></li>
+        </ul>
+    </div>
+</div>
+
+</div>
+<!-------------About------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+               <img src="Images/6.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Welcome to my portfolio! It's a place where I share my creative work and show off my skills. Inside, you'll find a collection of projects that I've worked on, each one reflecting my passion and dedication.My portfolio covers different areas like graphic design, web development, writing, and photography. I love exploring new things and challenging myself in various fields. You'll see how I've grown and improved over time, as I've learned new techniques and gained valuable experience.As you browse through my portfolio, you'll get a behind-the-scenes look at my creative process. From the initial ideas to the final execution, I pay attention to every detail to make sure the end result is exceptional.hank you for taking the time to explore my portfolio. I hope you find inspiration and see the passion I have for what I do. If you have any questions or want to work together, please don't hesitate to get in touch. Let's embark on a creative journey together and bring your vision to life.
+<br>Welcome to my world of creativity and skills – let's create something amazing!</p>
+            
+        <div class="tab-title"> 
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>UI/UX</span><br>Designing Web/App Interface</li>
+                <li><span>Web Development</span><br>Web App Interface</li>
+                <li><span>App Development</span><br>Building Android /IOS APPS</li>
+            </ul>
+        </div>
+        <div class="tab-contents " id="experience">
+            <ul>
+                <li><span>2021-Current</span><br>Working On a Project on School Website</li>
+                <li><span>2020-2021</span><br>Working on School Database</li>
+                <li><span>2019-2020</span><br>Working as a Team Leader on a Website Develop</li>
+            </ul>
+        </div>
+        <div class="tab-contents " id="education">
+            <ul>
+                <li><span>2022-Current</span><br>Pursuing Btech From Hooghly Engineering and Technology college</li>
+                <li><span>2022</span><br>Passed Higher Secondary from Hindu School</li>
+                <li><span>2020</span><br>Passed Madhyamik from Hindu School</li>
+            </ul>
+        </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------services---------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-codepen"></i>
+                <h2>Web Design</h2>
+                <p>Hello! Welcome to my web design portfolio. I'm a skilled web designer with a passion for creating visually appealing and user-friendly websites. In this portfolio, I will showcase some of my notable projects, highlighting my design approach, technical skills, and creativity.</p>
+                <a href="#">Learn More....</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Welcome to my portfolio showcasing my expertise in UI/UX design. With a passion for creating engaging and user-centric digital experiences, I have honed my skills in designing intuitive interfaces that marry functionality with aesthetic appeal. Throughout this portfolio, you will find examples of my work that highlight my ability to understand user needs, craft seamless user journeys, and deliver visually stunning designs.</p>
+                <a href="#">Learn More....</a>
+                </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>APP Design</h2>
+                <p>Welcome to my portfolio showcasing my expertise in app design. I have a passion for creating intuitive, user-friendly, and visually appealing mobile applications. Over the years, I have acquired extensive experience in designing apps for various platforms, including iOS and Android. In this portfolio, you will find a selection of my projects that highlight my skills, creativity, and attention to detail in the field of app design.</p>
+                <a href="#">Learn More....</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------Portfolio------------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/10.jpg">
+                <div class="layer">
+                    <h3>Web Application</h3>
+                    <p>This is a Web development. This is a Web app.Made by Sayar Paul........</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/11.jpg">
+                <div class="layer">
+                    <h3>Mobile App Development</h3>
+                    <p>This is a Mobile App.The app connects you to the talented people around thw world and download it from play store. This is a Web app.Made by Sayar Paul........</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/12.jpeg">
+                <div class="layer">
+                    <h3>UI/UX</h3>
+                    <p>This is an UI/UX. This is a online marketing app interface.Made by Sayar Paul........</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-----------------Contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>sayarpaul2004@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9331694359</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/sayar.paul.52/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/sayar_paul"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/the_most_faltu_sayar/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/sayar-paul-9b7535254/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Images/CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Sayar. Made By Sayar Paul</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxm1SSP3h5pdT2enivGXqXRcOG8bNYgPA0DCIC2LbO-CIlQrEstWj9iTth_kyRcnoPhnQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script>
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+
+  </script>
+</body>
+</html>
